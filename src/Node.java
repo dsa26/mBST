@@ -1,11 +1,11 @@
 public class Node<T> {
         public Node<T> left, right;
-        public T value;
+        public Integer key;
 
-        public Node(T value, Node<T> right, Node<T> left) {
+        public Node(Integer key, Node<T> right, Node<T> left) {
             this.right = right;
             this.left = left;
-            this.value = value;
+            this.key = key;
         }
 
 
